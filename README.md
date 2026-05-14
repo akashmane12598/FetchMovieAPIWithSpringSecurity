@@ -1,9 +1,9 @@
-Spring Boot Movies API with RestTemplate, Multithreading, H2, Spring Security, and JWT
+# Spring Boot Movies API with RestTemplate, Multithreading, H2, Spring Security, and JWT
 
 This project is a Spring Boot REST API that consumes the HackerRank Movies API using RestTemplate. It fetches paginated movie data, supports filtering by page, movie name, and year, and secures movie endpoints using Spring Security with JWT-based authentication.
 The project also stores users in an H2 in-memory database and uses a custom /auth/login API instead of Spring Security's default login page.
 
-Features
+## Features
 - Consume external movies API using RestTemplate
 - Fetch paginated movie data
 - Fetch all pages using multithreading
@@ -18,7 +18,7 @@ Features
 - Protect endpoints using @PreAuthorize
 - H2 console enabled for local testing
 
-Tech Stack
+## Tech Stack
 - Java
 - Spring Boot
 - Spring Web
@@ -30,3 +30,6 @@ Tech Stack
 - Maven
 - CompletableFuture
 - ExecutorService
+
+## External API Used
+https://jsonmock.hackerrank.com/api/moviesdata/search/
